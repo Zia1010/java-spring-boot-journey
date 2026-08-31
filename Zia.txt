@@ -1,0 +1,3 @@
+
+This data is inserted by buffered writer
+This is written by file

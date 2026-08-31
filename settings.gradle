@@ -1,0 +1,6 @@
+rootProject.name = 'java-spring-boot-journey'
+include 'Week1'
+include 'Week1:Class1'
+include 'Week1:Class2'
+include 'Week2'
+include 'Week2:Class1'
