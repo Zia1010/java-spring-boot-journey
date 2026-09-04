@@ -3,23 +3,18 @@ package com.github.zia;
 interface Document {
     void open();
 }
-
-
 class PdfDocument implements Document {
     @Override
     public void open() {
         System.out.println("Opening PDF document.");
     }
 }
-
 class WordDocument implements Document {
     @Override
     public void open() {
         System.out.println("Opening Word document.");
     }
 }
-
-
 abstract class DocumentCreator {
     public abstract Document createDocument();
 
